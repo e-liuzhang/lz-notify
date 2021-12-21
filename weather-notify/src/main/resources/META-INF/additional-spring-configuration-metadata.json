@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "auth.dingding",
+      "type": "java.lang.String",
+      "description": "Description for auth.dingding."
+  }
+] }

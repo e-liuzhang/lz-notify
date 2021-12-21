@@ -1,0 +1,21 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /bmp-mission-center-server
+spring:
+  application:
+    name: weather-notify
+  flyway:
+    enabled: false
+    locations: classpath:db/primary
+    validate-on-migrate: false
+
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://82.157.137.168:31065/liuzhang?characterEncoding=utf8&useSSL=false&allowMultiQueries=true&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+    password: liuzhang
+    username: 123456
+
+auth:
+  dingding: https://oapi.dingtalk.com/robot/send?access_token=b9b23f21bbfd496e26f09e14d52635058fcb9aa7f3e5e99956ff2b9176d72afa
